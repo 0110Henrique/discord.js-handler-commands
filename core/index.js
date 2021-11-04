@@ -5,7 +5,7 @@ const { token } = require('./config.json')
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, "GUILDS", "GUILD_MEMBERS", "GUILD_BANS", "GUILD_INTEGRATIONS", "GUILD_INVITES", "GUILD_PRESENCES", "GUILD_MESSAGES", "GUILD_MESSAGE_REACTIONS",  "DIRECT_MESSAGES", "DIRECT_MESSAGE_REACTIONS",] })
 
 client.commands = new Collection()
-const commandFiles = fs.readdirSync('./bot/commands').filter(file => file.endsWith('.js'))
+const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'))
 
 for (const file of commandFiles) {
 	const command = require(`../commands/${file}`)
