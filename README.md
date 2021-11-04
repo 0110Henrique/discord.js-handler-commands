@@ -1,2 +1,5 @@
-# discord.js-handler-commands
-This is discord.js V13 handler code. Docs: https://discordjs.guide/#before-you-begin
+# Slash Commands Handler - Discord.js
+
+- Discord.js: https://discord.js.org/
+- Discord.js Guide: https://discordjs.guide/#before-you-begin
+- Please verify config.json.
