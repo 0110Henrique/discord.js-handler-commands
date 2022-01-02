@@ -1,4 +1,4 @@
-# Slash Slash Commands Handler - Discord.js
+# Slash Commands Handler - Discord.js
 
 ## Discord.JS v13
 - Discord.js: https://discord.js.org/
